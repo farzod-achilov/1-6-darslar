@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(229, 0, 0, 0.71) 9.02%,
+    rgba(221, 6, 7, 0.720854) 11.25%,
+    #1593af 68.67%
+  );
+}
+.index-logo {
+  padding-top: 56px;
+  padding-bottom: 37px;
+  text-align: center;
+}
+.container {
+  background: #222222;
+  max-width: 312px;
+  min-height: 570px;
+  padding: 0 30px;
+  margin: 0 auto;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 20px 20px;
+}
+.index-header {
+  margin: 0;
+  padding: 0;
+  max-width: 269px;
+  margin-bottom: 50px;
+  font-family: "Creepster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.index-subtitle {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  max-width: 259px;
+  color: #c1cc41;
+  padding-bottom: 59px;
+}
+.index-btn-wrapper {
+  justify-content: center;
+  display: flex;
+}
+.index-btn {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #1ab8db;
+  border-radius: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container-home {
+  width: 375px;
+  min-height: 812px;
+  background-color: #fff;
+  position: relative;
+}
+
+.header-space {
+  top: 0;
+  left: 0;
+  background: #000;
+  position: absolute;
+  width: 375px;
+  height: 70px;
+  z-index: 1;
+}
+.home-logo {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.home-logo img {
+  z-index: 2;
+}
+.main {
+  padding: 0 15px;
+}
+.task {
+  align-items: center;
+  background-color: #d9d9d9;
+  border-radius: 4px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.square {
+  display: inline-block;
+  margin: 13px 0;
+  margin-left: 9px;
+  margin-right: 28px;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+.home-data {
+  margin: 0;
+  text-align: center;
+  margin-right: 64px;
+}
+.home-task {
+  margin: 0;
+  text-align: center;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 65px;
+  bottom: 0;
+  left: 0;
+  background: #eeeeee;
+}
+.plus {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 150px;
+  top: -35px;
+}
+.plus a {
+  padding: 20px 22px;
+  border: 1px solid #1ab8db;
+  border-radius: 50%;
+  background-color: #1ab8db;
+}
+
+.padding-add-task {
+  padding: 10px;
+}
+.header__add-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heaader__add-task-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #1ab8db;
+}
+.add-task__logo-wrapper {
+  margin-top: 45px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.x-add-task {
+  padding-right: 10px;
+}
+.add-task__title {
+  display: flex; 
+  flex-wrap: wrap;
+}
+.add-task__title label {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+padding-bottom: 10px;
+padding-top: 25px;
+
+}
+.add-task__title input {
+  width: 320px;
+  height: 50px;
+  background: #FFFFFF;
+border: 1px solid rgba(26, 184, 219, 0.85);
+border-radius: 10px;
+padding: 16px;
+}
+
+.add-task-label {
+  display: flex;
+  flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+}
+.add-btn {
+  border: 1px solid #1AB8DB;
+  border-radius: 20px;
+  color: #FFFFFF;
+  padding: 11px 35px;
+  background-color: #1AB8DB;
+  cursor: pointer;
+}
+.cancel-btn {
+  color: #fff;
+  padding: 11px 35px;
+text-decoration: none;
+border: 1px solid #FFFFFF;
+background: #FF0000;
+border-radius: 20px;
+}
+
+.btn__wrapper {
+  padding-top: 44px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
